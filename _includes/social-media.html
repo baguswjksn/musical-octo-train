@@ -1,0 +1,31 @@
+<section aria-label="Social media links">
+  <div class="flex flex-wrap text-center">
+    <div class="w-full pt-2">
+      <div>
+        {% if site.github %}
+        <span class="inline-block mr-2">
+          <a href="{{site.github}}" target="_blank" class="inline-flex items-center justify-center bg-white text-blueGray-800 font-normal h-10 w-10 rounded-full focus:outline-none" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </span>
+        {% endif %}
+
+        {% if site.linkedin %}
+        <span class="inline-block mr-2">
+          <a href="{{site.linkedin}}" target="_blank" class="inline-flex items-center justify-center bg-white text-blueGray-800 font-normal h-10 w-10 rounded-full focus:outline-none" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </span>
+        {% endif %}
+
+        {% if site.email %}
+        <span class="inline-block mr-2">
+          <a href="mailto:{{site.email}}" class="inline-flex items-center justify-center bg-white text-blueGray-800 font-normal h-10 w-10 rounded-full focus:outline-none" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </span>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

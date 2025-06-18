@@ -1,0 +1,32 @@
+baseurl: "/" # the name of your github repo
+url: "https://www.baguswjksn.my.id/"
+
+# site information used in page title, meta data etc.
+title: "baguswjksn.my.id"
+description: Bagus Muhammad Wijaksono's Personal Website
+
+# color theme for links
+theme-color: indigo # indigo|yellow|pink|green|stone|
+
+# homepage information
+author: Bagus Muhammad Wijaksono
+author-bio: Software Developer / DevOps Engineer / Cybersecurity Enthusiast # change to false to hide
+author-image: photo_2025-03-31_21-24-04.jpg
+
+# navigation menu
+show-nav-menu: true
+
+nav-menu:
+- text: About
+  permalink: about
+- text: Blog
+  permalink: blog
+
+# use false to turn off any social media links
+github: https://github.com/baguswjksn
+linkedin: https://linkedin.com/in/bgswjk
+email: baguswjksn@proton.me
+
+# jekyll plugins - no need to change
+plugins:
+    - jekyll-seo-tag
