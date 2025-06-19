@@ -16,11 +16,15 @@ featured: true
 
   <p>That’s when I had the idea: what if I could build a Telegram bot to help me follow the Kakeibo method in a more practical, accessible way? I already use Telegram every day — it’s fast, always with me, and supports bots well. I didn’t want a full-fledged budgeting app with graphs and dashboards. I wanted a simple, minimal tool that asked the right questions and supported the reflective process without adding complexity.</p>
 
-  <p>To build the bot, I chose <strong>Go</strong> as the main backbone for handling Telegram interactions. Go is fast, efficient, and once compiled, it's incredibly easy to deploy across different environments. I liked the idea of having a single binary that just runs without the need for a complex runtime or virtual environment. It made the bot reliable and portable — perfect for a small, personal project like this.</p>
+<img src="assets/img/95436eae6b567491e0ed495d593d185db0e429c33363a1d5d3d6bed6944e1359.webp" alt="Feature">
 
-  <p>For data storage, I used <strong>SQLite</strong>. Since this bot is primarily for my own use, I didn’t need a full-blown server-based database like MySQL or PostgreSQL. SQLite is lightweight, file-based, and requires zero setup. It integrates cleanly with Go, and it handles the task of storing expenses, categories, and summaries without any hassle.</p>
+  <p>To build the bot, I chose <strong>Go</strong> as the main backbone for handling Telegram interactions. Go is fast, efficient, and once compiled, it's incredibly easy to deploy across different environments. <span style="background-color: rgb(173, 255, 195);">I liked the idea of having a single binary that just runs without the need for a complex runtime or virtual environment.</span> It made the bot reliable and portable — perfect for a small, personal project like this.</p>
 
-  <p>To process the data and generate reports, I leaned on <strong>Python</strong>. It’s my go-to tool when it comes to data manipulation, exporting to Excel, or visualizing summaries. I wrote a few Python scripts that read the SQLite data and output weekly or monthly reports. This separation between the bot logic in Go and the reporting logic in Python kept the code modular, and made it easy to iterate on each part independently.</p>
+  <p>For data storage, I used <strong>SQLite</strong>. <span style="background-color: rgb(173, 255, 195);">Since this bot is primarily for my own use, I didn’t need a full-blown server-based database like MySQL or PostgreSQL.</span> SQLite is lightweight, file-based, and requires zero setup. It integrates cleanly with Go, and it handles the task of storing expenses, categories, and summaries without any hassle.</p>
+
+  <img src="assets/img/2a353f5ffc3a912460e2328d017e3f85997bd82d7d596419c01f009136b7c3cd.webp" alt="Project Structure">
+
+  <p>To process the data and generate reports, I leaned on <strong>Python</strong>. It’s my go-to tool when it comes to data manipulation, exporting to Excel, or visualizing summaries.<span style="background-color: rgb(173, 255, 195);"> I wrote a few Python scripts that read the SQLite data and output weekly or monthly reports. This separation between the bot logic in Go and the reporting logic in Python kept the code modular</span>, and made it easy to iterate on each part independently.</p>
 </div>
 
 <div style="text-align: justify;" data-lang="id" class="hidden">
@@ -30,10 +34,14 @@ featured: true
 
   <p>Saat itulah saya mendapat ide: bagaimana kalau saya membangun sebuah bot Telegram untuk membantu saya menjalankan metode Kakeibo dengan cara yang lebih praktis dan mudah diakses? Saya sudah menggunakan Telegram setiap hari — cepat, selalu tersedia, dan mendukung bot dengan baik. Saya tidak menginginkan aplikasi pengatur anggaran penuh dengan grafik dan dasbor. Saya hanya ingin alat yang sederhana dan minimalis yang mengajukan pertanyaan yang tepat dan mendukung proses refleksi tanpa menambah kerumitan.</p>
 
-  <p>Untuk membangun bot-nya, saya memilih <strong>Go</strong> sebagai tulang punggung utama dalam menangani interaksi dengan Telegram. Go cepat, efisien, dan setelah dikompilasi, sangat mudah dijalankan di berbagai lingkungan. Saya menyukai gagasan memiliki satu file biner yang langsung bisa dijalankan tanpa runtime atau lingkungan virtual yang rumit. Ini membuat bot menjadi andal dan portabel — sempurna untuk proyek kecil dan pribadi seperti ini.</p>
+  <img src="assets/img/95436eae6b567491e0ed495d593d185db0e429c33363a1d5d3d6bed6944e1359.webp" alt="Feature">
 
-  <p>Untuk penyimpanan data, saya menggunakan <strong>SQLite</strong>. Karena bot ini terutama digunakan untuk keperluan pribadi, saya tidak memerlukan database server seperti MySQL atau PostgreSQL. SQLite ringan, berbasis file, dan tidak memerlukan pengaturan apa pun. SQLite terintegrasi dengan baik dengan Go, dan mampu menangani penyimpanan pengeluaran, kategori, serta ringkasan dengan mudah.</p>
+  <p>Untuk membangun bot-nya, saya memilih <strong>Go</strong> sebagai tulang punggung utama dalam menangani interaksi dengan Telegram. Go cepat, efisien, dan setelah dikompilasi, sangat mudah dijalankan di berbagai lingkungan.<span style="background-color: rgb(173, 255, 195);"> Saya menyukai gagasan memiliki satu file biner yang langsung bisa dijalankan tanpa runtime atau lingkungan virtual yang rumit.</span> Ini membuat bot menjadi andal dan portabel — sempurna untuk proyek kecil dan pribadi seperti ini.</p>
 
-  <p>Untuk memproses data dan menghasilkan laporan, saya menggunakan <strong>Python</strong>. Ini adalah alat andalan saya untuk manipulasi data, ekspor ke Excel, atau visualisasi ringkasan. Saya menulis beberapa skrip Python yang membaca data dari SQLite dan menghasilkan laporan mingguan atau bulanan. Pemisahan antara logika bot di Go dan logika pelaporan di Python membuat kode menjadi modular, dan memudahkan pengembangan setiap bagian secara terpisah.</p>
+  <p>Untuk penyimpanan data, saya menggunakan <strong>SQLite</strong>. <span style="background-color: rgb(173, 255, 195);">Karena bot ini terutama digunakan untuk keperluan pribadi, saya tidak memerlukan database server seperti MySQL atau PostgreSQL.</span> SQLite ringan, berbasis file, dan tidak memerlukan pengaturan apa pun. SQLite terintegrasi dengan baik dengan Go, dan mampu menangani penyimpanan pengeluaran, kategori, serta ringkasan dengan mudah.</p>
+
+<img src="assets/img/2a353f5ffc3a912460e2328d017e3f85997bd82d7d596419c01f009136b7c3cd.webp" alt="Project Structure">
+
+  <p>Untuk memproses data dan menghasilkan laporan, saya menggunakan <strong>Python</strong>. Ini adalah alat andalan saya untuk manipulasi data, ekspor ke Excel, atau visualisasi ringkasan. <span style="background-color: rgb(173, 255, 195);">Saya menulis beberapa skrip Python yang membaca data dari SQLite dan menghasilkan laporan mingguan atau bulanan. Pemisahan antara logika bot di Go dan logika pelaporan di Python membuat kode menjadi modular</span>, dan memudahkan pengembangan setiap bagian secara terpisah.</p>
 </div>
 
