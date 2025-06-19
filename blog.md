@@ -6,9 +6,9 @@ permalink: blog
 
 {% assign featured_posts = site.posts | where: "featured", true %}
 
-<div class="mb-4">
+<div class="mb-8">
     <!-- Tab navigation with major spacing -->
-    <div style="border-bottom: 1px solid #e5e7eb; margin-bottom: 2rem;">
+    <div style="border-bottom: 1px solid #e5e7eb;">
         <nav style="display: flex; justify-content: center; margin-bottom: -1px;">
             <div style="display: flex; gap: 6rem;">
                 <a id="all-label" href="javascript:void(0)" onclick="showTab('all')"
