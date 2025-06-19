@@ -40,8 +40,9 @@ permalink: blog
       {% endif %}
   </div>
 
-<div data-lang="id" class="hidden">
+
 <div id="all-tab" class="tab-content hidden">
+<div data-lang="id" class="hidden">
     {% for post in site.posts %}
     <div class="py-3">
         <h3>
@@ -51,12 +52,10 @@ permalink: blog
     </h3>
     <div class="text-sm text-gray-400">{{ post.id-desc }}</div>
 </div>
-    {% endfor %}
-</div>
-</div>
+{% endfor %}
+    </div>
 
 <div data-lang="en">
-<div id="all-tab" class="tab-content hidden">
     {% for post in site.posts %}
     <div class="py-3">
         <h3>
@@ -67,7 +66,8 @@ permalink: blog
     <div class="text-sm text-gray-400">{{ post.en-desc }}</div>
 </div>
     {% endfor %}
-</div>
+    </div>
+
 </div>
 
 <script>
