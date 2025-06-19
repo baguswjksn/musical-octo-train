@@ -55,7 +55,7 @@ permalink: blog
 </div>
 </div>
 
-<div data-lang="id">
+<div data-lang="en">
 <div id="all-tab" class="tab-content hidden">
     {% for post in site.posts %}
     <div class="py-3">
