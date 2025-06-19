@@ -46,10 +46,20 @@ permalink: blog
       <div class="py-3">
           <h3>
               <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
-                  <strong>{{ post.title }}</strong>
+              <div data-lang="id" class="hidden">
+                  <strong>{{ post.id-title }}</strong>
+                </div>
+                <div data-lang="en">
+                  <strong>{{ post.en-title }}</strong>
+                </div>
               </a>
           </h3>
-          <div class="text-sm text-gray-400">{{ post.desc }}</div>
+           <div data-lang="id" class="hidden">
+          <div class="text-sm text-gray-400">{{ post.id-desc }}</div>
+          </div>
+          <div data-lang="en">
+          <div class="text-sm text-gray-400">{{ post.en-desc }}</div>
+          </div>
       </div>
       {% endfor %}
   </div>
