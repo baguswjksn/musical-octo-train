@@ -1,4 +1,4 @@
-baseurl: "/" # the name of your github repo
+baseurl: "https://baguswjksn.github.io/blog/" # the name of your github repo
 url: "https://baguswjksn.github.io/blog/"
 
 # site information used in page title, meta data etc.
