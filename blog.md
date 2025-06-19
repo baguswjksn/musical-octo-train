@@ -40,31 +40,34 @@ permalink: blog
       {% endif %}
   </div>
 
+<div data-lang="id" class="hidden">
+<div id="all-tab" class="tab-content hidden">
+    {% for post in site.posts %}
+    <div class="py-3">
+        <h3>
+            <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
+            <strong>{{ post.id-title }}</strong>
+            </a>
+    </h3>
+    <div class="text-sm text-gray-400">{{ post.id-desc }}</div>
+</div>
+    {% endfor %}
+</div>
+</div>
 
-  <div id="all-tab" class="tab-content hidden">
-      {% for post in site.posts %}
-      <div class="py-3">
-          <h3>
-              <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
-              <div data-lang="id" class="hidden">
-                  <strong>{{ post.id-title }}</strong>
-                </div>
-                <div data-lang="en">
-                  <strong>{{ post.en-title }}</strong>
-                </div>
-              </a>
-          </h3>
-           <div data-lang="id" class="hidden">
-          <div class="text-sm text-gray-400">{{ post.id-desc }}</div>
-          </div>
-          <div data-lang="en">
-          <div class="text-sm text-gray-400">{{ post.en-desc }}</div>
-          </div>
-      </div>
-      {% endfor %}
-  </div>
-
-
+<div data-lang="id">
+<div id="all-tab" class="tab-content hidden">
+    {% for post in site.posts %}
+    <div class="py-3">
+        <h3>
+            <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
+            <strong>{{ post.en-title }}</strong>
+            </a>
+    </h3>
+    <div class="text-sm text-gray-400">{{ post.en-desc }}</div>
+</div>
+    {% endfor %}
+</div>
 </div>
 
 <script>
