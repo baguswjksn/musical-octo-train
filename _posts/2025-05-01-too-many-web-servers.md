@@ -20,10 +20,12 @@ featured: true
 
   <p>Instead of searching through bookmarks or wikis, I could now go to a single page, click the relevant app group—say, "Payment Service – Prod" or "User API – Preprod"—and go directly to the login page, knowing it was the right environment and that my browser was compatible. I even tagged which environments required certain access roles, like admin or test accounts. The design was intentionally <strong>low-stimulation and functional</strong>, which helped me focus.</p>
 
+  <img src="assets/img/68ad767d3e44ed77005f52e43af97c72d8f173d6f0fc193d84541c1a018dc1ea.webp" alt="Board">
+
   <p>I’ll be honest: this also played to how my brain works. As much as I hate to admit it, <strong>I’m not a great multitasker</strong>—and science has some backing that male brains in general aren’t naturally wired for heavy multitasking. The more cognitive overhead I could offload, the better. I didn’t want to have to <em>remember</em> server names, environments, access rules, or which browser to use. I just wanted to do my work.</p>
 
   <p>This portal turned into one of the most helpful tools in my daily workflow. What started as a personal hack became something teammates began asking for. Now, we’re considering making it part of our onboarding process. It’s lightweight, secure (since it’s just local static HTML), and surprisingly effective.</p>
-
+                <img src="assets/img/96f5fc85bc9db329806237b8fb1831341f9c212217887de269fc65d535cd5e00.webp" alt="Board">
   <p>No frameworks, no JavaScript, no servers. Just <strong>HTML, CSS</strong>, and a little inspiration from imageboard culture.</p>
 
   <p>Sometimes, the best solutions are the ones that strip things down to the essentials.</p>
@@ -53,16 +55,20 @@ featured: true
     keyakinan bahwa itu adalah lingkungan yang benar dan browser saya kompatibel. Saya bahkan menandai lingkungan mana
     yang membutuhkan peran akses tertentu, seperti akun admin atau testing. Desainnya sengaja dibuat <strong>minim
       rangsangan dan fungsional</strong>, yang membantu saya tetap fokus.</p>
+        <img src="assets/img/68ad767d3e44ed77005f52e43af97c72d8f173d6f0fc193d84541c1a018dc1ea.webp" alt="Board">
   <p>Sejujurnya, ini juga sesuai dengan cara kerja otak saya. Meski enggan mengakuinya, <strong>saya bukan seorang
       multitasker yang hebat</strong>—dan sains mendukung bahwa otak pria pada umumnya memang tidak dirancang secara
     alami untuk multitasking berat. Semakin banyak beban kognitif yang bisa saya hilangkan, semakin baik. Saya tidak mau
     <em>mengingat</em> nama server, lingkungan, aturan akses, atau browser mana yang harus digunakan. Saya hanya ingin
     menyelesaikan pekerjaan saya.</p>
+
   <p>Portal ini berubah menjadi salah satu alat paling membantu dalam alur kerja harian saya. Apa yang awalnya merupakan
     solusi pribadi, kini menjadi sesuatu yang mulai diminta oleh rekan-rekan kerja. Sekarang, kami sedang
     mempertimbangkan untuk menjadikannya bagian dari proses onboarding. Ini ringan, aman (karena hanya HTML statis
     lokal), dan sangat efektif.</p>
+                    <img src="assets/img/96f5fc85bc9db329806237b8fb1831341f9c212217887de269fc65d535cd5e00.webp" alt="Board">
   <p>Tidak ada framework, tidak ada JavaScript, tidak ada server. Hanya <strong>HTML, CSS</strong>, dan sedikit
     inspirasi dari budaya imageboard.</p>
+
   <p>Terkadang, solusi terbaik adalah yang merangkum segala hal ke dalam bentuk paling esensial.</p>
 </div>
