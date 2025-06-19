@@ -8,7 +8,7 @@ permalink: about
     <p style="text-align: justify;">Hi! I’m <strong>Bagus Muhammad Wijaksono</strong>, known online as <strong>‘baguswijaksono’</strong>—you can find
         me pretty much anywhere under that name. It’s simple and consistent, nothing complicated to remember.</p>
 
-<p style="text-align: justify;"><img src="/assets/img/444636409-7d05ff18-79e3-433f-87f0-e043ea5c9b7f-1.webp" alt="Selamat Pagi" /></p>
+<p style="text-align: justify;"><img src="assets/img/444636409-7d05ff18-79e3-433f-87f0-e043ea5c9b7f-1.webp" alt="Selamat Pagi" /></p>
 
 <p style="text-align: justify;">I enjoy <strong>building, breaking, and securing</strong> things. I’m passionate about <strong>software
         engineering</strong>, <strong>penetration
@@ -37,7 +37,7 @@ permalink: about
         <strong>‘baguswijaksono’</strong>—kamu bisa menemukan saya hampir di mana saja dengan nama itu. Sederhana dan
         konsisten, nggak perlu diingat-ingat yang rumit.
     </p>
-    <p style="text-align: justify;"><img src="/assets/img/444636409-7d05ff18-79e3-433f-87f0-e043ea5c9b7f-1.webp" alt="Selamat Pagi" /></p>
+    <p style="text-align: justify;"><img src="assets/img/444636409-7d05ff18-79e3-433f-87f0-e043ea5c9b7f-1.webp" alt="Selamat Pagi" /></p>
     <p style="text-align: justify;">Saya senang <strong>membangun, membongkar, dan mengamankan</strong> sesuatu. Saya punya minat besar di bidang
         <strong>rekayasa perangkat lunak</strong>, <strong>pengujian penetrasi</strong>, <strong>sejarah</strong>, dan
         <strong>filsafat</strong>. Saya adalah <strong>pengembang yang agnostik terhadap bahasa pemrograman</strong>,
