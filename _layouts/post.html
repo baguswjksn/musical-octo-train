@@ -2,48 +2,43 @@
 layout: default
 ---
 {% if site.show-nav-menu %}
-{% include nav.html%}
+  {% include nav.html%}
 {% endif %}
+
 <div data-lang="id" class="hidden">
-  <div class="px-4 pt-4 prose prose-{{site.theme-color}}">
-    <h1 class="text-center mt-6 mb-6">{{ page.id-title }}</h1>
-  </div>
-  <div class="text-center text-xs text-gray-500 mt-6 mb-6">{{ page.date | date: "%B %-d, %Y" }}</div>
+<div class="px-4 pt-4 prose prose-{{site.theme-color}}">
+  <h1 class="text-center mt-6 mb-6">{{ page.id-title }}</h1>
+   <div class="text-center text-xs text-gray-500 mt-6 mb-6">{{ page.date | date: "%B %-d, %Y" }}</div>
   <div class="text-center">
     {% if page.tags.size !=0 %}
-    <i class="text-xs fas fa-tags"></i>
+      <i class="text-xs fas fa-tags"></i>
     {% for tag in page.tags %}
-    <div class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
-      <a class="!no-underline" href="{{site.baseurl}}/tag#{{ tag }}">{{ tag }}</a>
-    </div>
+      <div class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
+        <a class="!no-underline" href="{{site.baseurl}}/tag#{{ tag }}">{{ tag }}</a>
+      </div>
     {% endfor %}
     {% endif %}
   </div>
   {{content}}
+</div>
 </div>
 
 <div data-lang="en">
-  <div class="px-4 pt-4 prose prose-{{site.theme-color}}">
-    <h1 class="text-center mt-6 mb-6">{{ page.en-title }}</h1>
-  </div>
-  <div class="text-center text-xs text-gray-500 mt-6 mb-6">{{ page.date | date: "%B %-d, %Y" }}</div>
+<div class="px-4 pt-4 prose prose-{{site.theme-color}}">
+  <h1 class="text-center mt-6 mb-6">{{ page.title }}</h1>
+   <div class="text-center text-xs text-gray-500 mt-6 mb-6">{{ page.date | date: "%B %-d, %Y" }}</div>
   <div class="text-center">
     {% if page.tags.size !=0 %}
-    <i class="text-xs fas fa-tags"></i>
+      <i class="text-xs fas fa-tags"></i>
     {% for tag in page.tags %}
-    <div class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
-      <a class="!no-underline" href="{{site.baseurl}}/tag#{{ tag }}">{{ tag }}</a>
-    </div>
+      <div class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
+        <a class="!no-underline" href="{{site.baseurl}}/tag#{{ tag }}">{{ tag }}</a>
+      </div>
     {% endfor %}
     {% endif %}
   </div>
   {{content}}
 </div>
-
-  {% endfor %}
-  {% endif %}
-</div>
-{{content}}
 </div>
 
 {% include sticky-bottom.html %}
