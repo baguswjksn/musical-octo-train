@@ -13,7 +13,7 @@ At first, I tried using bookmarks to organize the mess, but it quickly became cl
 
 And so, I decided to build something better. I created a **unified web access portal**, completely written in **plain HTML and CSS**—nothing fancy, just solid and simple. Think of it like a dashboard, but inspired by the minimalist aesthetic of **imageboards like 4chan**. I liked the idea of separating things visually and conceptually by **app and operation type**, just like how threads are broken up by topic.
 
-![Selamat Pagi](/assets/img/e5284689a95bd5a0c2bcb7367de7a8673a7a55b122586a0539d4dfb8fa90dcdf.webp)
+![Selamat Pagi](assets/img/e5284689a95bd5a0c2bcb7367de7a8673a7a55b122586a0539d4dfb8fa90dcdf.webp)
 
 Instead of searching through bookmarks or wikis, I could now go to a single page, click the relevant app group—say, "Payment Service – Prod" or "User API – Preprod"—and go directly to the login page, knowing it was the right environment and that my browser was compatible. I even tagged which environments required certain access roles, like admin or test accounts. The design was intentionally **low-stimulation and functional**, which helped me focus.
 

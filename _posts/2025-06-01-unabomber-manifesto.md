@@ -5,7 +5,7 @@ tags: teknologi masyarakat
 permalink: unabomber-manifesto
 desc: Manifesto Unabomber bukan sekadar teror, tapi jeritan jiwa terhadap peradaban modern yang kehilangan arah
 ---
-![Ted Kaczynski](/assets/img/037b8b53918a10c5465be81a86f09e7bbd111c6af335eadfec2a752e93fc2c01.webp)
+![Ted Kaczynski](assets/img/037b8b53918a10c5465be81a86f09e7bbd111c6af335eadfec2a752e93fc2c01.webp)
 
 <div style="text-align: justify;">
     <p>Membaca Unabomber Manifesto terasa mengganggu, bukan hanya karena penulisnya adalah pelaku teror, tapi karena isi
@@ -14,7 +14,7 @@ desc: Manifesto Unabomber bukan sekadar teror, tapi jeritan jiwa terhadap perada
         Bukan teriakan gila, tapi suara seseorang yang merasa dunia sudah dikendalikan mesin tak terlihat.
     </p>
   
-<img src="/assets/img/0a4569c7809385dca673e18caf0bcef3ec4f425465b31de4663ba381ab9839bd.webp" alt="Manifesto">
+<img src="assets/img/0a4569c7809385dca673e18caf0bcef3ec4f425465b31de4663ba381ab9839bd.webp" alt="Manifesto">
 
 <p> Argumen utamanya tegas: teknologi tidak netral. Perkembangannya menuntut manusia untuk tunduk, menjadi bagian dari sistem yang kaku dan tanpa jiwa. <span style="background-color: rgb(255, 255, 185);"> Kemajuan membawa kenyamanan, tapi sekaligus menciptakan perasaan terasing, tidak berdaya, dan kehilangan kendali atas hidup sendiri.</span> Manifesto ini memaksa kita bertanya—apa yang sebenarnya kita korbankan demi kemudahan? </p>
 

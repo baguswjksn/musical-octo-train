@@ -18,7 +18,7 @@ situlah pengasingan pertama dimulai. Cerita ini mengajak kita berpikir: apa yang
 tapi dunia justru menjauh, bukan mendekat? Tidak ada pencerahan atau pertumbuhan di sini. Hanya perubahan yang
 menyakitkan, dan perlahan-lahan, seseorang dihapus dari hidup orang-orang di sekitarnya.<br><br>
 
-<img src="/assets/img/f00389c5191fa9639a8896ae6e444eef248e6cbd932c4b1bd1f8f2f75eef8ca4.webp"
+<img src="assets/img/f00389c5191fa9639a8896ae6e444eef248e6cbd932c4b1bd1f8f2f75eef8ca4.webp"
     alt="Metamorphosis" /><br><br>
 
 <span style="background-color: rgb(255, 255, 185);">Mudah untuk mengira bahwa tragedi utama ada pada perubahan fisik
@@ -46,7 +46,7 @@ but instead of coming closer, the world drifts away? There is no enlightenment o
 transformation, and slowly, someone is erased from the lives of those around them.
 <br><br>
 
-<img src="/assets/img/f00389c5191fa9639a8896ae6e444eef248e6cbd932c4b1bd1f8f2f75eef8ca4.webp"
+<img src="assets/img/f00389c5191fa9639a8896ae6e444eef248e6cbd932c4b1bd1f8f2f75eef8ca4.webp"
     alt="Metamorphosis" /><br><br>
 
 <span style="background-color: rgb(255, 255, 185);">It's easy to assume that the main tragedy lies in the physical
