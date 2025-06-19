@@ -1,10 +1,13 @@
 ---
 layout: post
-title: Demikianlah Sabda Zarathustra
+en-title: Thus Spoke Zarathustra
+id-title: Demikianlah Sabda Zarathustra
 tags: nietzsche
 permalink: demikianlah-sabda-zarathustra
-desc: Merayakan penderitaan sebagai sumber kebesaran, dan mengajak kita mencipta moralitas yang lahir dari kebebasan dan keberanian.
+en-desc: A celebration of suffering as a source of greatness, calling us to create a morality born from freedom and courage.
+id-desc: Merayakan penderitaan sebagai sumber kebesaran, dan mengajak kita mencipta moralitas yang lahir dari kebebasan dan keberanian.
 ---
+
 <div style="text-align: justify;" data-lang="id" class="hidden">
   <p style="text-align: justify;"><em>Demikianlah Sabda Zarathustra</em> bukan sekadar buku, melainkan tantangan. Nietzsche tidak menulis untuk
     menghibur atau memberi jawaban sederhana. Ia menulis untuk mengguncang, untuk memaksa pembaca bercermin dan bertanya

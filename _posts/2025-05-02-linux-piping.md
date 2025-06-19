@@ -1,10 +1,13 @@
 ---
 layout: post
-title: Linux Piping
+en-title: Linux Piping
+id-title: Linux Piping
 tags: tutorial linux shell
 permalink: linux-piping
-desc: Unlock the power of Linux pipes to build efficient and elegant command-line workflows.
+en-desc: Unlock the power of Linux pipes to build efficient and elegant command-line workflows.
+id-desc: Manfaatkan kekuatan piping Linux untuk membangun alur kerja command-line yang efisien dan elegan.
 ---
+
 
 Piping is a method of connecting the output of one command directly into the input of another. In Linux, the `|` character is used to create this connection. The basic syntax looks like this:
 

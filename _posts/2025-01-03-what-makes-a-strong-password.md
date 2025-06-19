@@ -1,10 +1,13 @@
 ---
 layout: post
-title: What Makes a Password Strong
-tags: tutorial 
+en-title: What Makes a Password Strong
+id-title: Apa yang Membuat Password Kuat
+tags: tutorial
 permalink: what-makes-a-strong-password
-desc: why an understanding of human habits can defeat the most powerful algorithms
+en-desc: Why an understanding of human habits can defeat the most powerful algorithms.
+id-desc: Mengapa pemahaman tentang kebiasaan manusia dapat mengalahkan algoritma paling kuat.
 ---
+
 
 Forget everything you've been told about creating passwords — things like “use a capital letter and a number,” or those little strength meters that turn green when your password looks “strong.” These rules may give you a false sense of security. They don’t always protect you the way you think they do. To really understand what makes a good password, it helps to look at how password systems actually work — and how hackers try to break them.
 

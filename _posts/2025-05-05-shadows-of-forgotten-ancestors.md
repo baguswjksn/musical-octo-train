@@ -1,10 +1,13 @@
 ---
 layout: post
-title: Shadows of Forgotten Ancestors
+en-title: Shadows of Forgotten Ancestors
+id-title: Bayang-Bayang Leluhur yang Terlupakan
 tags: non-fiction
 permalink: shadows-of-forgotten-ancestors
-desc: thought-provoking book examines the connections between science, culture, and the evolution of humanity, weaving together anthropology, biology, and history.
+en-desc: This thought-provoking book examines the connections between science, culture, and the evolution of humanity, weaving together anthropology, biology, and history.
+id-desc: Buku yang menggugah pikiran ini menelaah keterkaitan antara sains, budaya, dan evolusi umat manusia, dengan menggabungkan antropologi, biologi, dan sejarah.
 ---
+
 
 *Shadows of Forgotten Ancestors* by **Carl Sagan** and **Ann Druyan** is a fascinating exploration of human evolution, tracing the deep, often mysterious roots of our species. The authors take readers on a journey back through time, examining our distant ancestors and their evolutionary journey. Through a seamless blend of anthropology, biology, and paleontology, Sagan and Druyan offer an accessible yet <span style="background-color: yellow;">profound understanding of how humanity came to be</span>. Rather than focusing solely on hard facts, they bring to life the wonders and unknowns of our shared past.
 

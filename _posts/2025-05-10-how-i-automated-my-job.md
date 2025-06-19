@@ -1,11 +1,14 @@
 ---
 layout: post
-title: Cut My 8-Hour Shift Down to Just 2 Hours
+en-title: Cut My 8-Hour Shift Down to Just 2 Hours
+id-title: Memangkas Shift 8 Jam Jadi Hanya 2 Jam
 tags: automation productivity
 permalink: how-i-automated-my-job
-desc: How automation transformed my daily routine and saved me time, making my work more impactful and enjoyable.
+en-desc: How automation transformed my daily routine and saved me time, making my work more impactful and enjoyable.
+id-desc: Bagaimana otomatisasi mengubah rutinitas harian saya, menghemat waktu, dan membuat pekerjaan jadi lebih bermakna serta menyenangkan.
 featured: true
 ---
+
 ![Too Tired?](assets/img/481c05c7690691d91d914993db586754e01036d7ed386a0a021a30c7038f455f.webp)
 
 Eight months ago, I joined a company as a DevOps Engineer for a major platform in the customer and billing space. Due to a non-disclosure agreement, I can't share which company I work for, but let's just say it’s a well-known ISP.

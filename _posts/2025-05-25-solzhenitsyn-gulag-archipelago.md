@@ -1,10 +1,13 @@
 ---
-layout: post  
-title: The Gulag Archipelago
-tags: literature Russian Nonfiction  
+layout: post
+en-title: The Gulag Archipelago
+id-title: Gulag Archipelago
+tags: literature Russian Nonfiction
 permalink: gulag-archipelago
-desc: A review of Aleksandr Solzhenitsyn's The Gulag Archipelago, a monumental work that exposes the brutal realities of Soviet labor camps and the resilience of the human spirit.  
+en-desc: A review of Aleksandr Solzhenitsyn's The Gulag Archipelago, a monumental work that exposes the brutal realities of Soviet labor camps and the resilience of the human spirit.
+id-desc: Ulasan atas The Gulag Archipelago karya Aleksandr Solzhenitsyn, sebuah karya monumental yang mengungkap realitas brutal kamp kerja paksa Soviet dan ketangguhan semangat manusia.
 ---
+
 
 <div style="text-align: justify;">
  <p>
