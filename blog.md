@@ -6,7 +6,7 @@ permalink: blog
 
 {% assign featured_posts = site.posts | where: "featured", true %}
 
-<div class="mb-8">
+<div class="mb-4">
     <!-- Tab navigation with major spacing -->
     <div style="border-bottom: 1px solid #e5e7eb; margin-bottom: 2rem;">
         <nav style="display: flex; justify-content: center; margin-bottom: -1px;">
@@ -20,24 +20,41 @@ permalink: blog
         </nav>
     </div>
 
+
   <!-- Featured Tab Content -->
   <div id="featured-tab" class="tab-content">
       {% if featured_posts.size > 0 %}
       <!-- <div class="grid md:grid-cols-2 gap-6"> -->
+        <div data-lang="id" class="hidden">
       {% for post in featured_posts %}
       <div class="py-3">
           <h3>
               <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
-                  <strong>{{ post.title }}</strong>
+                  <strong>{{ post.id-title }}</strong>
               </a>
           </h3>
-          <div class="text-sm text-gray-400">{{ post.desc }}</div>
+          <div class="text-sm text-gray-400">{{ post.id-desc }}</div>
       </div>
       {% endfor %}
+      </div>
+
+<div data-lang="en">
+      {% for post in featured_posts %}
+      <div class="py-3">
+          <h3>
+              <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
+                  <strong>{{ post.en-title }}</strong>
+              </a>
+          </h3>
+          <div class="text-sm text-gray-400">{{ post.en-desc }}</div>
+      </div>
+      {% endfor %}
+      </div>
       <!-- </div> -->
       {% else %}
       <p class="text-gray-500 italic">No featured posts yet.</p>
       {% endif %}
+
   </div>
 
 
