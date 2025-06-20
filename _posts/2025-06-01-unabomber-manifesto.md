@@ -8,9 +8,9 @@ en-desc: A cry of the soul against a modern civilization that has lost its way
 id-desc: Sebuah jeritan jiwa terhadap peradaban modern yang telah kehilangan arah
 ---
 
-<div style="text-align: justify;" data-lang="id" class="hidden">
-
 <img src="assets/img/037b8b53918a10c5465be81a86f09e7bbd111c6af335eadfec2a752e93fc2c01.webp" alt="Ted Kaczynski">
+
+<div style="text-align: justify;" data-lang="id" class="hidden">
 
 <div style="text-align: justify;">
     <p>Membaca Unabomber Manifesto terasa mengganggu, bukan hanya karena penulisnya adalah pelaku teror, tapi karena isi
@@ -31,8 +31,6 @@ id-desc: Sebuah jeritan jiwa terhadap peradaban modern yang telah kehilangan ara
 </div>
 
 <div style="text-align: justify;" data-lang="en">
-
-<img src="assets/img/037b8b53918a10c5465be81a86f09e7bbd111c6af335eadfec2a752e93fc2c01.webp" alt="Ted Kaczynski">
 
 <div style="text-align: justify;">
     <p>Reading the Unabomber Manifesto is disturbing—not just because its author was a terrorist, but because the content is filled with deep unease about the direction of modern civilization. With a cold and rational tone, the manifesto questions how technology is reshaping human psychology, social structures, and the very meaning of freedom. It’s not the rant of a madman, but the voice of someone who believes the world is now ruled by an invisible machine.</p>
