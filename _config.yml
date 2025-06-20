@@ -1,5 +1,5 @@
-baseurl: "https://baguswjksn.github.io/blog/" # the name of your github repo
-url: "https://baguswjksn.github.io/blog/"
+baseurl: "/" # the name of your github repo
+url: "http://www.bagusmw.me"
 
 # site information used in page title, meta data etc.
 title: "baguswjksn.my.id"
