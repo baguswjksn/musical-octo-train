@@ -33,7 +33,7 @@ permalink: blog
                   <strong>{{ post.id-title }}</strong>
               </a>
           </h3>
-          <div class="text-sm text-gray-600">{{ post.id-desc }}</div>
+          <div class="text-sm text-gray-400">{{ post.id-desc }}</div>
       </div>
       {% endfor %}
       </div>
@@ -46,7 +46,7 @@ permalink: blog
                   <strong>{{ post.en-title }}</strong>
               </a>
           </h3>
-          <div class="text-sm text-gray-600">{{ post.en-desc }}</div>
+          <div class="text-sm text-gray-400">{{ post.en-desc }}</div>
       </div>
       {% endfor %}
       </div>
@@ -67,7 +67,7 @@ permalink: blog
             <strong>{{ post.id-title }}</strong>
             </a>
     </h3>
-    <div class="text-sm text-gray-600">{{ post.id-desc }}</div>
+    <div class="text-sm text-gray-400">{{ post.id-desc }}</div>
 </div>
 {% endfor %}
     </div>
@@ -80,7 +80,7 @@ permalink: blog
             <strong>{{ post.en-title }}</strong>
             </a>
     </h3>
-    <div class="text-sm text-gray-600">{{ post.en-desc }}</div>
+    <div class="text-sm text-gray-400">{{ post.en-desc }}</div>
 </div>
     {% endfor %}
     </div>
