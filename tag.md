@@ -6,7 +6,7 @@ permalink: tag
 <section class="max-w-2xl mx-auto">
   {% assign sorted_tags = site.tags | sort %}
   {% for tag in sorted_tags %}
-    <div class="mb-8">
+    <div class="mb-2">
       <h2 id="{{ tag[0] | slugify }}" class="text-xl font-bold text-blue-600 mb-2">
         #{{ tag[0] }}
       </h2>
