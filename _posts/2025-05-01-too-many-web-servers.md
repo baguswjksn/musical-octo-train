@@ -2,7 +2,7 @@
 layout: post
 en-title: Solving the Too-Many-Web-Servers Problem
 id-title: Solusi untuk Masalah Terlalu Banyak Web Server
-tags: internal-tools productivity html css
+tags: productivity
 permalink: too-many-web-servers
 en-desc: How I built a lightweight internal portal to manage dozens of production and pre-production web servers.
 id-desc: Bagaimana saya membangun portal internal ringan untuk mengelola puluhan web server produksi dan pra-produksi.

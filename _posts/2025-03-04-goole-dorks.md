@@ -2,7 +2,7 @@
 layout: post
 en-title: Google Dorks
 id-title: Google Dorks
-tags: tutorial
+tags: tutorial cyber-security
 permalink: google-dorks
 en-desc: An easy way to extract millions of data records.
 id-desc: Cara mudah mengekstrak jutaan data.

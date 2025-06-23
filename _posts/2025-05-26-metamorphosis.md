@@ -2,7 +2,7 @@
 layout: post
 en-title: The Metamorphosis
 id-title: Metamorfosis
-tags: literature
+tags: literature fiction
 permalink: the-metamorphosis
 en-desc: Franz Kafka's The Metamorphosis — alienation, transformation without reason, and the tragedy of indifference.
 id-desc: The Metamorphosis karya Franz Kafka—alienasi, perubahan tanpa alasan, dan tragedi dari ketidakpedulian.

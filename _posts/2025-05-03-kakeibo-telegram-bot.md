@@ -2,7 +2,7 @@
 layout: post
 en-title: How I Turned Kakeibo Budgeting Simpler
 id-title: Menyederhanakan Anggaran Kakeibo
-tags: tutorial
+tags: self-improvement productivity
 permalink: kakeibo-telegram-bot
 en-desc: From reading a traditional Japanese budgeting book to building a digital companion that fits in my pocket.
 id-desc: Dari membaca buku anggaran tradisional Jepang hingga membangun pendamping digital yang bisa dibawa ke mana-mana.

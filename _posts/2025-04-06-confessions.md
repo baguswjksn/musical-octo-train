@@ -2,7 +2,7 @@
 layout: post
 en-title: Confessions
 id-title: Confessions
-tags: literature Japanese Novels
+tags: literature book-review
 permalink: confessions
 en-desc: A review of Minato Kanae's Confessions, a psychological thriller that explores the dark depths of revenge, guilt, and the human condition.
 id-desc: Ulasan novel Confessions karya Minato Kanae, sebuah thriller psikologis yang mengeksplorasi kedalaman gelap balas dendam, rasa bersalah, dan kondisi manusia.

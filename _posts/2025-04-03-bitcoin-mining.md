@@ -2,7 +2,7 @@
 layout: post
 en-title: Bitcoin Mining Is Just Fancy Brute Forcing
 id-title: Bitcoin Mining Hanya Brute Forcing Mewah
-tags: tutorial
+tags: cryptocurrency brute-force
 permalink: bitcoin-mining
 en-desc: Bitcoin mining is simply large-scale brute forcing, not as complicated as imagined.
 id-desc: Penambangan Bitcoin hanyalah brute-forcing berskala besar, tidak serumit yang dibayangkan.

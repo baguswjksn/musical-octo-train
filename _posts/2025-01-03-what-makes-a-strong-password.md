@@ -2,7 +2,7 @@
 layout: post
 en-title: What Makes a Password Strong
 id-title: Apa yang Membuat Password Kuat
-tags: tutorial
+tags: cyber-security
 permalink: what-makes-a-strong-password
 en-desc: Why an understanding of human habits can defeat the most powerful algorithms.
 id-desc: Mengapa pemahaman tentang kebiasaan manusia dapat mengalahkan algoritma paling kuat.

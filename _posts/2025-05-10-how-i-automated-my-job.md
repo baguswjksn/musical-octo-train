@@ -2,7 +2,7 @@
 layout: post
 en-title: Cut My 8-Hour Shift Down to Just 2 Hours
 id-title: Memangkas Shift 8 Jam Jadi Hanya 2 Jam
-tags: automation productivity
+tags: automation productivity self-improvement
 permalink: how-i-automated-my-job
 en-desc: How automation transformed my daily routine and saved me time, making my work more impactful and enjoyable.
 id-desc: Bagaimana otomatisasi mengubah rutinitas harian saya, menghemat waktu, dan membuat pekerjaan jadi lebih bermakna serta menyenangkan.
