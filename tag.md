@@ -3,7 +3,7 @@ layout: tag
 title: Tags
 permalink: tag
 ---
-<section class="max-w-2xl mx-auto px-4 py-8">
+<section class="max-w-2xl mx-auto">
   {% assign sorted_tags = site.tags | sort %}
   {% for tag in sorted_tags %}
     <div class="mb-8">
@@ -13,7 +13,7 @@ permalink: tag
       <ul class="list-disc list-inside space-y-1">
         {% for post in tag[1] %}
           <li>
-            <a href="{{ site.baseurl }}{{ post.url }}" class="text-gray-800 hover:text-blue-500">
+            <a href="{{ site.baseurl }}{{ post.url }}" class="text-black hover:underline hover:text-blue-500">
               {{ post.title }}
             </a>
           </li>
