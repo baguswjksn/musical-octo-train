@@ -7,7 +7,7 @@ permalink: monitoring-with-beszel
 en-desc: Many monitoring tools are powerful but come with complex setups and maintenance. This alternative simplifies the process, helping you get insights faster and with far less hassle.
 id-desc: Banyak alat pemantauan yang powerful tapi memiliki proses instalasi dan pemeliharaan yang rumit. Alternatif ini menyederhanakan semuanya, sehingga Anda bisa mendapatkan insight lebih cepat dengan lebih mudah.
 ---
-<div style="text-align: justify;" data-lang="id">
+<div style="text-align: justify;" data-lang="id" class="hidden">
   <p>Memantau metrik sistem sangat penting untuk menjaga kesehatan infrastruktur Anda, tapi mari kita jujur—menyiapkan alat pemantauan yang tepat sering kali terasa seperti proyek besar tersendiri. Ambil contoh Grafana, standar industri yang banyak orang andalkan. Tidak diragukan lagi, Grafana itu kuat dan fleksibel, tapi <em>sungguh,</em> kekuatan itu datang dengan harga mahal: <strong>kompleksitas</strong>.</p>
 
   <p>Ingin memantau metrik Anda? Bagus! Sekarang bersiaplah untuk berjam-jam (atau bahkan berhari-hari) mengatur sumber data tanpa akhir, bergulat dengan dependensi plugin yang entah kenapa rusak, dan menyempurnakan dasbor sampai otak Anda nyaris meleleh. Serius, siapa yang punya waktu untuk itu? Rasanya Anda perlu menjadi admin Grafana penuh waktu hanya untuk mendapatkan pengaturan monitoring dasar tanpa berubah menjadi kekacauan yang rumit.</p>
