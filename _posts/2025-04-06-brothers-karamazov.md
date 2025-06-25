@@ -2,7 +2,7 @@
 layout: post
 en-title: Brothers Karamazov
 id-title: Saudara Karamazov
-tags: literature Russian Novels
+tags: literature book-review
 permalink: brothers-karamazov
 en-desc: Exploring themes of doubt, faith, suffering, and the search for moral truth in Fyodor Dostoevsky's The Brothers Karamazov.
 id-desc: Menyelami tema keraguan, iman, penderitaan, dan pencarian kebenaran moral dalam karya Fyodor Dostoevsky, The Brothers Karamazov.

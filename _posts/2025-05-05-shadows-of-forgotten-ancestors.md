@@ -2,7 +2,7 @@
 layout: post
 en-title: Shadows of Forgotten Ancestors
 id-title: Bayang-Bayang Leluhur yang Terlupakan
-tags: non-fiction
+tags: non-fiction book-review
 permalink: shadows-of-forgotten-ancestors
 en-desc: This thought-provoking book examines the connections between science, culture, and the evolution of humanity, weaving together anthropology, biology, and history.
 id-desc: Buku yang menggugah pikiran ini menelaah keterkaitan antara sains, budaya, dan evolusi umat manusia, dengan menggabungkan antropologi, biologi, dan sejarah.

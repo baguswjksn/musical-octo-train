@@ -8,7 +8,6 @@ en-desc: An easy way to extract millions of data records.
 id-desc: Cara mudah mengekstrak jutaan data.
 ---
 
-
 Email scraping, is useful for legitimate purposes like marketing campaigns and data analysis, can also be exploited for malicious activities such as spam,phishing attacks, malware distribution.
 
 I’ll show you how easily you can gather millions of emails just using google dork/ google hacking. Now what’s google dork?? google it! don’t be lazy but if your’e already aware of it Noiceeeee. here’s a sample of the google dork I used.

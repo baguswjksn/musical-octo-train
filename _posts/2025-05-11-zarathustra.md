@@ -2,7 +2,7 @@
 layout: post
 en-title: Thus Spoke Zarathustra
 id-title: Demikianlah Sabda Zarathustra
-tags: nietzsche
+tags: literature book-review fiction
 permalink: demikianlah-sabda-zarathustra
 en-desc: A celebration of suffering as a source of greatness, calling us to create a morality born from freedom and courage.
 id-desc: Merayakan penderitaan sebagai sumber kebesaran, dan mengajak kita mencipta moralitas yang lahir dari kebebasan dan keberanian.
