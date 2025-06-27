@@ -27,14 +27,17 @@ permalink: blog
       <!-- <div class="grid md:grid-cols-2 gap-6"> -->
         <div data-lang="id" class="hidden">
       {% for post in featured_posts %}
-      <div class="py-3">
-          <h3>
-              <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
-                  <strong>{{ post.id-title }}</strong>
-              </a>
-          </h3>
-          <div class="text-sm text-gray-400">{{ post.id-desc }}</div>
-      </div>
+<div class="py-3">
+    <h3 style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+        <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
+            <strong>{{ post.id-title }}</strong>
+        </a>
+        <span class="text-xs text-gray-500">
+            {{ post.date | date: "%B %-d, %Y" }}
+        </span>
+    </h3>
+    <div class="text-sm text-gray-400">{{ post.id-desc }}</div>
+</div>
       {% endfor %}
       </div>
 
@@ -52,13 +55,12 @@ permalink: blog
     <div class="text-sm text-gray-400">{{ post.en-desc }}</div>
 </div>
 
-
-      {% endfor %}
-      </div>
-      <!-- </div> -->
-      {% else %}
-      <p class="text-gray-500 italic">No featured posts yet.</p>
-      {% endif %}
+{% endfor %}
+</div>
+<!-- </div> -->
+{% else %}
+<p class="text-gray-500 italic">No featured posts yet.</p>
+{% endif %}
 
   </div>
 
@@ -66,11 +68,14 @@ permalink: blog
 <div id="all-tab" class="tab-content hidden">
 <div data-lang="id" class="hidden">
     {% for post in site.posts %}
-    <div class="py-3">
-        <h3>
-            <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
+<div class="py-3">
+    <h3 style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+        <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
             <strong>{{ post.id-title }}</strong>
-            </a>
+        </a>
+        <span class="text-xs text-gray-500">
+            {{ post.date | date: "%B %-d, %Y" }}
+        </span>
     </h3>
     <div class="text-sm text-gray-400">{{ post.id-desc }}</div>
 </div>
@@ -79,11 +84,14 @@ permalink: blog
 
 <div data-lang="en">
     {% for post in site.posts %}
-    <div class="py-3">
-        <h3>
-            <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
+<div class="py-3">
+    <h3 style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+        <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
             <strong>{{ post.en-title }}</strong>
-            </a>
+        </a>
+        <span class="text-xs text-gray-500">
+            {{ post.date | date: "%B %-d, %Y" }}
+        </span>
     </h3>
     <div class="text-sm text-gray-400">{{ post.en-desc }}</div>
 </div>
