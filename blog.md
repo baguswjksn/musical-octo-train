@@ -27,7 +27,7 @@ permalink: blog
       <!-- <div class="grid md:grid-cols-2 gap-6"> -->
         <div data-lang="id" class="hidden">
       {% for post in featured_posts %}
-<div class="py-3">
+<div>
     <h3 style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
         <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
             <strong>{{ post.id-title }}</strong>
@@ -43,7 +43,7 @@ permalink: blog
 
 <div data-lang="en">
       {% for post in featured_posts %}
-<div class="py-3">
+<div>
     <h3 style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
         <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
             <strong>{{ post.en-title }}</strong>
@@ -68,7 +68,7 @@ permalink: blog
 <div id="all-tab" class="tab-content hidden">
 <div data-lang="id" class="hidden">
     {% for post in site.posts %}
-<div class="py-3">
+<div>
     <h3 style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
         <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
             <strong>{{ post.id-title }}</strong>
@@ -84,7 +84,7 @@ permalink: blog
 
 <div data-lang="en">
     {% for post in site.posts %}
-<div class="py-3">
+<div>
     <h3 style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
         <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
             <strong>{{ post.en-title }}</strong>
