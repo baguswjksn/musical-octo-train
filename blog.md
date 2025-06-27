@@ -41,16 +41,17 @@ permalink: blog
 <div data-lang="en">
       {% for post in featured_posts %}
 <div class="py-3">
-    <h3>
+    <h3 style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
         <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
             <strong>{{ post.en-title }}</strong>
         </a>
+        <span class="text-xs text-gray-500">
+            {{ post.date | date: "%B %-d, %Y" }}
+        </span>
     </h3>
-    <div class="text-xs text-gray-500">
-        {{ post.date | date: "%B %-d, %Y" }}
-    </div>
     <div class="text-sm text-gray-400">{{ post.en-desc }}</div>
 </div>
+
 
       {% endfor %}
       </div>
