@@ -13,7 +13,6 @@ author: Bagus Muhammad Wijaksono
 author-bio: Software Developer / DevOps Engineer / Cybersecurity Enthusiast # change to false to hide
 author-image: 86aa9f24121cd5971928cf1533606073733469256f74d19e0a6caa7b4cdb66a1.webp
 
-# navigation menu
 show-nav-menu: true
 
 nav-menu:
@@ -22,11 +21,9 @@ nav-menu:
 - text: Blog
   permalink: blog
 
-# use false to turn off any social media links
 github: https://github.com/baguswjksn
 linkedin: https://linkedin.com/in/bgswjk
 email: baguswjksn@proton.me
 
-# jekyll plugins - no need to change
 plugins:
     - jekyll-seo-tag
