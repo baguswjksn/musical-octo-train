@@ -19,8 +19,6 @@ kisah ini: keterasingan tidak selalu punya sebab yang logis, tapi bisa muncul be
 Kafka menyadari bahwa tubuh sering kali menjadi awal dari perubahan itu. Tidak ada pencerahan atau pertumbuhan di sini. Hanya perubahan yang
 menyakitkan, dan perlahan-lahan, seseorang dihapus dari hidup orang-orang di sekitarnya.<br><br>
 
-<img src="assets/img/f00389c5191fa9639a8896ae6e444eef248e6cbd932c4b1bd1f8f2f75eef8ca4.webp"
-    alt="Metamorphosis" /><br><br>
 
 <span style="background-color: rgb(255, 255, 185);">Mudah untuk mengira bahwa tragedi utama ada pada perubahan fisik
     itu sendiri. Tapi Kafka menunjukkan sesuatu yang lebih dalam—bahwa luka sebenarnya muncul dari sikap dingin
@@ -44,9 +42,6 @@ alienation doesn’t always have a logical cause—it can appear out of nowhere.
 Kafka understands that the body is often the starting point of such change. There is no enlightenment or growth here. Only painful
 transformation, and slowly, someone is erased from the lives of those around them.
 <br><br>
-
-<img src="assets/img/f00389c5191fa9639a8896ae6e444eef248e6cbd932c4b1bd1f8f2f75eef8ca4.webp"
-    alt="Metamorphosis" /><br><br>
 
 <span style="background-color: rgb(255, 255, 185);">It's easy to assume that the main tragedy lies in the physical
     transformation itself. But Kafka reveals something deeper—that the real wound comes from the cold response of
