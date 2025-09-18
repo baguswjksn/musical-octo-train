@@ -1,11 +1,11 @@
 ---
 layout: post
-en-title: Why Is Everything So Needlessly Complex
+en-title: Why Is Everything So Needlessly Complex?
 id-title: Mengapa Segalanya Terlalu Rumit Tanpa Alasan?
 tags: productivity
 permalink: unnecessary-complexity
-en-desc: A personal reflection on how complexity in big tech is not always a technical necessity but often a cultural choice, and why that mindset is holding us back
-id-desc: Sebuah refleksi pribadi tentang bagaimana kompleksitas di perusahaan teknologi besar sering kali bukan kebutuhan teknis melainkan pilihan budaya, dan mengapa pola pikir seperti itu justru menghambat kita
+en-desc: A personal reflection on how complexity in big tech is not always a technical necessity but often a cultural choice
+id-desc: Sebuah refleksi pribadi tentang bagaimana kompleksitas di perusahaan teknologi besar sering kali bukan kebutuhan teknis melainkan pilihan budaya
 ---
 
 <div style="text-align: justify;" data-lang="id" class="hidden">
@@ -27,8 +27,8 @@ id-desc: Sebuah refleksi pribadi tentang bagaimana kompleksitas di perusahaan te
   <p style="text-align: justify;">
     Ada satu kutipan dari almarhum Terry A. Davis—otak brilian di balik TempleOS—yang terus terngiang di kepala saya:
   </p>
-  <p style="text-align: center; font-style: italic; background-color: rgb(255, 255, 185);">
-    “Orang bodoh mengagumi kompleksitas, orang jenius mengagumi kesederhanaan.”
+  <p style="text-align: center; font-style: italic;">
+    “An idiot admires complexity, a genius admires simplicity.”
   </p>
   <p style="text-align: justify;">
     Kutipan itu menampar saya keras. Karena yang saya lihat di big tech adalah sebaliknya. Orang-orang bukan mengejar kesederhanaan—mereka justru menghindarinya. Sederhana berarti transparan. Sederhana berarti terdokumentasi. Sederhana berarti posisi kamu bisa digantikan. Dan tidak ada yang mau itu terjadi.
@@ -66,7 +66,7 @@ id-desc: Sebuah refleksi pribadi tentang bagaimana kompleksitas di perusahaan te
   <p style="text-align: justify;">
     There’s a quote that stuck with me during all this. It’s from the late Terry A. Davis, a controversial but undeniably brilliant mind behind TempleOS. He said:
   </p>
-  <p style="text-align: center; font-style: italic; background-color: rgb(255, 255, 185);">
+  <p style="text-align: center; font-style: italic;">
     “An idiot admires complexity, a genius admires simplicity.”
   </p>
   <p style="text-align: justify;">
@@ -85,4 +85,5 @@ id-desc: Sebuah refleksi pribadi tentang bagaimana kompleksitas di perusahaan te
     Because in the end, simplicity isn’t naive. It’s powerful. And if more of us start to value it, maybe—just maybe—we can start building systems worth inheriting.
   </p>
 </div>
+
 
