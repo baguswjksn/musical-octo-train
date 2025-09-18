@@ -1,11 +1,11 @@
 ---
 layout: post
-en-title: Why Is Everything So Needlessly Complex?
+en-title: Why Is Everything So Needlessly Complex
 id-title: Mengapa Segalanya Terlalu Rumit Tanpa Alasan?
 tags: productivity
 permalink: unnecessary-complexity
-en-desc: A personal reflection on how complexity in big tech isn't always a technical necessity, but often a cultural choice—and why that mindset is holding us back.
-id-desc: Sebuah refleksi pribadi tentang bagaimana kompleksitas di perusahaan teknologi besar sering kali bukan kebutuhan teknis, melainkan pilihan budaya—dan mengapa pola pikir seperti itu justru menghambat kita.
+en-desc: A personal reflection on how complexity in big tech is not always a technical necessity but often a cultural choice, and why that mindset is holding us back
+id-desc: Sebuah refleksi pribadi tentang bagaimana kompleksitas di perusahaan teknologi besar sering kali bukan kebutuhan teknis melainkan pilihan budaya, dan mengapa pola pikir seperti itu justru menghambat kita
 ---
 
 I was genuinely excited. I'd always heard that "big tech" meant working with the best minds and most efficient systems. But what I found instead was something I wasn’t prepared for: layers and layers of unnecessary complexity—half of which seemed actively designed to confuse.
@@ -24,5 +24,6 @@ There’s a quote that stuck with me during all this. It’s from the late Terry
 That quote hit me hard. Because it’s the opposite of what I saw in big tech. People weren’t chasing simplicity—they were running from it. Simplicity meant transparency. Simplicity meant documentation. Simplicity meant that someone else could take your place. And nobody wants that.
 
 But here's the truth: real engineering isn’t about making things complicated—it’s about making them work. Making them understandable. Making them clean. The engineers I respect the most aren’t the ones who can build a 10-layer architecture with seven microservices for a basic CRUD operation. They’re the ones who can strip something bloated down to a couple of files and say, “There. Now it just works.”
+
 
 Unfortunately, those engineers are rare. And often underappreciated. Because their work looks simple—when in reality, it’s the result of deep understanding and discipline. It’s easy to stack abstraction on abstraction. It takes real skill to remove what’s unnecessary and leave behind only what matters.
