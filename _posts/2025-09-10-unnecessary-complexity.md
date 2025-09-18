@@ -31,7 +31,7 @@ id-desc: Sebuah refleksi pribadi tentang bagaimana kompleksitas di perusahaan te
     “An idiot admires complexity, a genius admires simplicity.”
   </p>
   <p style="text-align: justify;">
-    Kutipan itu menampar saya keras. Karena yang saya lihat di big tech adalah sebaliknya. Orang-orang bukan mengejar kesederhanaan—mereka justru menghindarinya. Sederhana berarti transparan. Sederhana berarti terdokumentasi. Sederhana berarti posisi kamu bisa digantikan. Dan tidak ada yang mau itu terjadi.
+    Kutipan itu menampar saya keras. Karena yang saya lihat di big tech adalah sebaliknya. Orang-orang bukan mengejar kesederhanaan—mereka justru menghindarinya. <span style="background-color: rgb(255, 255, 0);">Sederhana berarti transparan. Sederhana berarti terdokumentasi. Sederhana berarti posisi kamu bisa digantikan. Dan tidak ada yang mau itu terjadi.</span>
   </p>
   <p style="text-align: justify;">
     Tapi inilah kenyataannya: rekayasa perangkat lunak yang sejati bukan soal membuat sesuatu rumit—tapi membuatnya berfungsi. Membuatnya bisa dipahami. Membuatnya bersih. Insinyur yang paling saya hormati bukan yang bisa bikin 10 lapisan arsitektur dengan 7 microservice hanya untuk operasi CRUD. Tapi yang bisa menyederhanakan semua itu menjadi beberapa berkas dan berkata, “Sudah. Sekarang tinggal jalan.”
@@ -70,7 +70,7 @@ id-desc: Sebuah refleksi pribadi tentang bagaimana kompleksitas di perusahaan te
     “An idiot admires complexity, a genius admires simplicity.”
   </p>
   <p style="text-align: justify;">
-    That quote hit me hard. Because it’s the opposite of what I saw in big tech. People weren’t chasing simplicity—they were running from it. Simplicity meant transparency. Simplicity meant documentation. Simplicity meant that someone else could take your place. And nobody wants that.
+    That quote hit me hard. Because it’s the opposite of what I saw in big tech. People weren’t chasing simplicity—they were running from it. <span style="background-color: rgb(255, 255, 0);">Simplicity meant transparency. Simplicity meant documentation. Simplicity meant that someone else could take your place. And nobody wants that. </span>
   </p>
   <p style="text-align: justify;">
     But here's the truth: real engineering isn’t about making things complicated—it’s about making them work. Making them understandable. Making them clean. The engineers I respect the most aren’t the ones who can build a 10-layer architecture with seven microservices for a basic CRUD operation. They’re the ones who can strip something bloated down to a couple of files and say, “There. Now it just works.”
@@ -85,5 +85,6 @@ id-desc: Sebuah refleksi pribadi tentang bagaimana kompleksitas di perusahaan te
     Because in the end, simplicity isn’t naive. It’s powerful. And if more of us start to value it, maybe—just maybe—we can start building systems worth inheriting.
   </p>
 </div>
+
 
 
