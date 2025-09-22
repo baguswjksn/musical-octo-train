@@ -23,13 +23,6 @@ permalink: about
         strong reason or urgency to be</span>. So if you stumble across one of my accounts and see it’s pretty much
     empty—that’s
     normal.</p>
-
-<p style="text-align: justify;">Especially from around 2022 onward, with AI advancing rapidly, <span
-        style="background-color: rgb(173, 255, 195);">I’ve been more cautious about how much personal content I
-        put online.</span> We’re clearly moving into an age where data—photos, videos, even casual posts—can all be
-    used to train or
-    feed AI systems. <span style="background-color: rgb(157, 219, 255);">So I try to limit my digital
-        footprint</span>, especially when it comes to my face or personal exposure.</p>
 </div>
 
 <div data-lang="id" class="hidden">
@@ -47,12 +40,6 @@ permalink: about
     <p style="text-align: justify;"><span style="background-color: rgb(255, 255, 185);">Soal media sosial—saya sebenarnya nggak terlalu aktif di
             sana. Bukan karena menyembunyikan sesuatu, tapi memang saya nggak merasa ada alasan kuat atau kebutuhan
             mendesak untuk aktif.</span> Jadi kalau kamu menemukan akun saya dan isinya kosong—itu hal yang biasa.</p>
-    <p style="text-align: justify;">Terutama sejak sekitar tahun 2022, ketika AI berkembang pesat, <span
-            style="background-color: rgb(173, 255, 195);">saya jadi lebih berhati-hati soal seberapa banyak konten
-            pribadi yang saya unggah ke internet.</span> Jelas kita sedang memasuki era di mana data—foto, video, bahkan
-        unggahan santai—bisa digunakan untuk melatih atau memberi makan sistem AI. <span
-            style="background-color: rgb(157, 219, 255);">Jadi saya berusaha membatasi jejak digital saya</span>,
-        terutama yang berkaitan dengan wajah atau eksposur pribadi.</p>
 </div>
 
 {% include sticky-bottom.html %}
