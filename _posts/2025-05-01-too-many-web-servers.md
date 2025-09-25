@@ -24,10 +24,8 @@ featured: true
 
   <p>I’ll be honest: this also played to how my brain works. As much as I hate to admit it, <strong>I’m not a great multitasker</strong>—and science has some backing that male brains in general aren’t naturally wired for heavy multitasking. The more cognitive overhead I could offload, the better. I didn’t want to have to <em>remember</em> server names, environments, access rules, or which browser to use. I just wanted to do my work.</p>
 
-  <p>This portal turned into one of the most helpful tools in my daily workflow. What started as a personal hack became something teammates began asking for. Now, we’re considering making it part of our onboarding process. It’s lightweight, secure (since it’s just local static HTML), and surprisingly effective.</p>
-                <img src="assets/img/96f5fc85bc9db329806237b8fb1831341f9c212217887de269fc65d535cd5e00.webp" alt="Board">
-  <p>No frameworks, no JavaScript, no servers. Just <strong>HTML, CSS</strong>, and a little inspiration from imageboard culture.</p>
-
+  <p>This portal turned into one of the most helpful tools in my daily workflow. What started as a personal hack became something teammates began asking for. It’s lightweight, secure (since it’s just local static HTML), and surprisingly effective.</p>
+<img src="assets/img/96f5fc85bc9db329806237b8fb1831341f9c212217887de269fc65d535cd5e00.webp" alt="Board">
   <p>Sometimes, the best solutions are the ones that strip things down to the essentials.</p>
 </div>
 
@@ -63,12 +61,8 @@ featured: true
     menyelesaikan pekerjaan saya.</p>
 
   <p>Portal ini berubah menjadi salah satu alat paling membantu dalam alur kerja harian saya. Apa yang awalnya merupakan
-    solusi pribadi, kini menjadi sesuatu yang mulai diminta oleh rekan-rekan kerja. Sekarang, kami sedang
-    mempertimbangkan untuk menjadikannya bagian dari proses onboarding. Ini ringan, aman (karena hanya HTML statis
+    solusi pribadi, kini menjadi sesuatu yang mulai diminta oleh rekan-rekan kerja. Ini ringan, aman (karena hanya HTML statis
     lokal), dan sangat efektif.</p>
-                    <img src="assets/img/96f5fc85bc9db329806237b8fb1831341f9c212217887de269fc65d535cd5e00.webp" alt="Board">
-  <p>Tidak ada framework, tidak ada JavaScript, tidak ada server. Hanya <strong>HTML, CSS</strong>, dan sedikit
-    inspirasi dari budaya imageboard.</p>
-
+<img src="assets/img/96f5fc85bc9db329806237b8fb1831341f9c212217887de269fc65d535cd5e00.webp" alt="Board">
   <p>Terkadang, solusi terbaik adalah yang merangkum segala hal ke dalam bentuk paling esensial.</p>
 </div>
