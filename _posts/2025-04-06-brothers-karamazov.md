@@ -1,7 +1,7 @@
 ---
 layout: post
-en-title: Brothers Karamazov
-id-title: Saudara Karamazov
+en-title: Dostoevsky's Summary of the Human Race
+id-title: Ringkasan Dostoevsky tentang Umat Manusia
 tags: literature book-review
 permalink: brothers-karamazov
 en-desc: Exploring themes of doubt, faith, suffering, and the search for moral truth in Fyodor Dostoevsky's The Brothers Karamazov.
