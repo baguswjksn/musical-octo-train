@@ -10,7 +10,7 @@ featured: true
 ---
 
 <div style="text-align: justify;" data-lang="en">
-  <p>When I first joined my company, one of the biggest headaches I faced wasn't the work itself—it was just trying to figure out <em>where everything was</em>. We had a <strong>ton of web servers</strong>. Some were for <strong>production</strong>, others were for <strong>pre-production</strong>, and each had its own quirks. On top of that, different systems required different levels of access—some were admin-only, others for testers or developers. To make it more complicated, the URLs were scattered across internal docs, chat messages, and the occasional browser bookmark. It was chaos.</p>
+  <p>We had a <strong>ton of web servers</strong>. Some were for <strong>production</strong>, others were for <strong>pre-production</strong>, and each had its own quirks. On top of that, different systems required different levels of access—some were admin-only, others for testers or developers. To make it more complicated, the URLs were scattered across internal docs, chat messages, and the occasional browser bookmark. It was chaos.</p>
 
   <p>At first, I tried using bookmarks to organize the mess, but it quickly became clear that wasn’t enough. Bookmarks rely on the browser environment—some of our internal servers only work with specific secure browsers. If I opened the wrong link in the wrong browser, I’d either get an error or worse, be told the session couldn’t even start. It just didn’t scale. The friction was constant, and frankly, it made onboarding painful.</p>
 
@@ -30,8 +30,7 @@ featured: true
 </div>
 
 <div style="text-align: justify;" data-lang="id" class="hidden">
-  <p>Ketika saya pertama kali bergabung dengan perusahaan saya, salah satu hal paling membuat pusing yang saya hadapi
-    bukanlah pekerjaannya sendiri—melainkan hanya mencoba mencari tahu <em>di mana semua hal berada</em>. Kami memiliki
+  <p>Kita punya
     <strong>banyak sekali server web</strong>. Beberapa untuk <strong>produksi</strong>, lainnya untuk
     <strong>pra-produksi</strong>, dan masing-masing punya keunikan sendiri. Di atas itu semua, sistem yang berbeda
     memerlukan tingkat akses yang berbeda pula—ada yang hanya untuk admin, ada yang untuk tester atau developer. Yang
