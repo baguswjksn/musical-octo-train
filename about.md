@@ -10,9 +10,7 @@ permalink: about
 
 <p style="text-align: justify;"><img src="assets/img/444636409-7d05ff18-79e3-433f-87f0-e043ea5c9b7f-1.webp" alt="Selamat Pagi" /></p>
 
-<p style="text-align: justify;">I enjoy <strong>building, breaking, and securing</strong> things. I’m passionate about <strong>software
-        engineering</strong>, <strong>penetration
-        testing</strong>, <strong>history</strong>, and <strong>philosophy</strong>. I’m a <strong>language-agnostic
+<p style="text-align: justify;">I enjoy <strong>building, breaking, and securing</strong> things. I’m a <strong>language-agnostic
         developer</strong>, comfortable working with any
     language, especially in *NIX environments. While I don’t always label myself as a “software engineer,” I suppose
     that’s
@@ -31,10 +29,8 @@ permalink: about
         konsisten, nggak perlu diingat-ingat yang rumit.
     </p>
     <p style="text-align: justify;"><img src="assets/img/444636409-7d05ff18-79e3-433f-87f0-e043ea5c9b7f-1.webp" alt="Selamat Pagi" /></p>
-    <p style="text-align: justify;">Saya senang <strong>membangun, membongkar, dan mengamankan</strong> sesuatu. Saya punya minat besar di bidang
-        <strong>rekayasa perangkat lunak</strong>, <strong>pengujian penetrasi</strong>, <strong>sejarah</strong>, dan
-        <strong>filsafat</strong>. Saya adalah <strong>pengembang yang agnostik terhadap bahasa pemrograman</strong>,
-        nyaman bekerja dengan bahasa apa pun, terutama di lingkungan *NIX. Meskipun saya nggak selalu menyebut diri saya
+    <p style="text-align: justify;">Saya senang <strong>membangun, membongkar, dan mengamankan</strong> sesuatu. Saya adalah <strong>aku developer yang agnostik terhadap bahasa pemrograman</strong>,
+        cukup nyaman bekerja dengan bahasa apa pun, terutama di lingkungan *NIX. Meskipun nggak selalu menyebut diri
         sebagai “software engineer,” mungkin memang itu yang akhirnya saya jalani.
     </p>
     <p style="text-align: justify;"><span style="background-color: rgb(255, 255, 185);">Soal media sosial—saya sebenarnya nggak terlalu aktif di
