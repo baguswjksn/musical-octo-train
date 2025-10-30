@@ -10,7 +10,7 @@ theme-color: indigo # indigo|yellow|pink|green|stone|
 
 # homepage information
 author: Bagus Muhammad Wijaksono
-author-bio: Software Developer / DevOps Engineer / Cybersecurity Enthusiast # change to false to hide
+author-bio: Software Developer / DevOps Engineer # change to false to hide
 author-image: 86aa9f24121cd5971928cf1533606073733469256f74d19e0a6caa7b4cdb66a1.webp
 
 show-nav-menu: true
