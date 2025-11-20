@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>About Me | bagusmw.me</title>
 <link rel="icon" type="image/svg+xml" href="/assets/img/icon.svg" />
-  <style>
+<style>
   /* ---------------- GLOBAL LAYOUT ---------------- */
 body, html {
     margin: 0;
@@ -15,33 +15,27 @@ body, html {
     color: #1f2937;
     background: #ffffff;
 }
-
 .page {
     max-width: 65ch;
     margin: 0 auto;
     padding: 2rem 1rem;
 }
-
 /* ---------------- NAVBAR ---------------- */
-
 .navbar {
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
 }
-
 .nav-inner {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-
 .nav-menu {
     display: flex;
     gap: 1.2rem;
 }
-
 .nav-item {
     text-decoration: none;
     font-size: 0.85rem;
@@ -49,7 +43,6 @@ body, html {
     color: #6b7280;
     transition: color 0.2s;
 }
-
 .nav-item:hover {
     color: #111827;
 }
@@ -61,7 +54,6 @@ body, html {
   border-bottom: 1px solid #e5e7eb;
   margin-bottom: 1rem;
 }
-
 .tab-link {
   text-decoration: none;
   font-size: 0.875rem;
@@ -71,26 +63,21 @@ body, html {
   border-bottom: 2px solid transparent;
   white-space: nowrap;
 }
-
 .tab-link.active {
   color: #4f46e5;
   border-bottom-color: #4f46e5;
 }
-
 /* Tab Content */
 .tab-content {
   display: block;
 }
-
 .tab-content.hidden {
   display: none;
 }
-
 /* Post Styling */
 .post {
   margin-bottom: 1.5rem;
 }
-
 .post-title {
   display: flex;
   flex-wrap: wrap;
@@ -99,24 +86,20 @@ body, html {
   margin: 0;
   font-size: 1rem;
 }
-
 .post-title a {
   color: #000;
   text-decoration: none;
   font-weight: bold;
 }
-
 .post-date {
   font-size: 0.75rem;
   color: #6b7280;
 }
-
 .post-desc {
   font-size: 0.875rem;
   color: #9ca3af;
   margin: 0.25rem 0 0;
 }
-
 /* No posts message */
 .no-posts {
   font-style: italic;
@@ -129,7 +112,6 @@ body, html {
     right: 1rem;
     z-index: 50;
 }
-
 .lang-selector select {
     padding: 0.5rem 0.75rem;
     border: 1px solid #4B5563;
@@ -142,7 +124,6 @@ body, html {
     cursor: pointer;
     transition: box-shadow .15s ease;
 }
-
 .lang-selector select:focus {
     box-shadow: 0 0 0 2px #3B82F6;
 }
