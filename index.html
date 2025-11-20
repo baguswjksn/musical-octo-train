@@ -135,13 +135,6 @@ body, html {
 
 <nav class="navbar">
   <div class="nav-inner">
-    <button type="button" class="nav-toggle" onclick="toggleNavbar('navbar-menu')" aria-expanded="false">
-      <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          d="M4 6h16M4 12h16M4 18h16"/>
-      </svg>
-    </button>
-
     <div id="navbar-menu" class="nav-menu">
       <a href="/about" class="nav-item">About</a>
       <a href="/blog" class="nav-item">Blog</a>
@@ -153,7 +146,6 @@ body, html {
   <img class="avatar"
        src="/assets/img/86aa9f24121cd5971928cf1533606073733469256f74d19e0a6caa7b4cdb66a1.webp"
        alt="author profile image">
-
   <h1 class="name">Bagus Muhammad Wijaksono</h1>
   <p class="role">Software Developer / DevOps Engineer</p>
 </div>
@@ -216,10 +208,6 @@ body, html {
   const y = document.getElementById("get-current-year");
   if (y) y.textContent = new Date().getFullYear();
 })();
-
-  function toggleNavbar(id) {
-  document.getElementById(id).classList.toggle("open");
-}
 </script>
 
 </body>
