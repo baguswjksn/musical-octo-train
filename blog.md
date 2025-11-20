@@ -6,133 +6,160 @@ permalink: blog
 
 {% assign featured_posts = site.posts | where: "featured", true %}
 
-<div class="mb-8">
-    <!-- Tab navigation with major spacing -->
-    <div style="border-bottom: 1px solid #e5e7eb;">
-        <nav style="display: flex; justify-content: center; margin-bottom: -1px;">
-            <div style="display: flex; gap: 6rem;">
-                <a id="all-label" href="javascript:void(0)" onclick="showTab('all')"
-                    style="border-bottom: 2px solid #4f46e5; padding: 1rem 0.25rem; font-size: 0.875rem; font-weight: 500; color: #4f46e5; white-space: nowrap; text-decoration: none;"
-                    aria-current="page">All Posts</a>
-                <a id="featured-label" href="javascript:void(0)" onclick="showTab('featured')"
-                    style="border-bottom: 2px solid transparent; padding: 1rem 0.25rem; font-size: 0.875rem; font-weight: 500; color: #6b7280; white-space: nowrap; text-decoration: none;">Selected</a>
-            </div>
-        </nav>
-    </div>
+<div class="tabs-container">
+  <!-- Tab Navigation -->
+  <nav class="tabs-nav">
+    <a id="all-label" href="javascript:void(0)" onclick="showTab('all')" class="tab-link active">All Posts</a>
+    <a id="featured-label" href="javascript:void(0)" onclick="showTab('featured')" class="tab-link">Selected</a>
+  </nav>
 
-
-  <!-- Featured Tab Content -->
+  <!-- Featured Tab -->
   <div id="featured-tab" class="tab-content">
-      {% if featured_posts.size > 0 %}
-      <!-- <div class="grid md:grid-cols-2 gap-6"> -->
-        <div data-lang="id" class="hidden">
-      {% for post in featured_posts %}
-<div>
-    <h3 style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-        <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
-            <strong>{{ post.id-title }}</strong>
-        </a>
-        <span class="text-xs text-gray-500">
-            {{ post.date | date: "%B %-d, %Y" }}
-        </span>
-    </h3>
-    <div class="text-sm text-gray-400">{{ post.id-desc }}</div>
-</div>
-      {% endfor %}
+    {% if featured_posts.size > 0 %}
+      <div data-lang="id" class="lang-content">
+        {% for post in featured_posts %}
+        <div class="post">
+          <h3 class="post-title">
+            <a href="{{site.baseurl}}{{ post.url }}">{{ post.id-title }}</a>
+            <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+          </h3>
+          <p class="post-desc">{{ post.id-desc }}</p>
+        </div>
+        {% endfor %}
       </div>
 
-<div data-lang="en">
-      {% for post in featured_posts %}
-<div>
-    <h3 style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-        <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
-            <strong>{{ post.en-title }}</strong>
-        </a>
-        <span class="text-xs text-gray-500">
-            {{ post.date | date: "%B %-d, %Y" }}
-        </span>
-    </h3>
-    <div class="text-sm text-gray-400">{{ post.en-desc }}</div>
-</div>
-
-{% endfor %}
-</div>
-<!-- </div> -->
-{% else %}
-<p class="text-gray-500 italic">No featured posts yet.</p>
-{% endif %}
-
+      <div data-lang="en" class="lang-content">
+        {% for post in featured_posts %}
+        <div class="post">
+          <h3 class="post-title">
+            <a href="{{site.baseurl}}{{ post.url }}">{{ post.en-title }}</a>
+            <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+          </h3>
+          <p class="post-desc">{{ post.en-desc }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="no-posts">No featured posts yet.</p>
+    {% endif %}
   </div>
 
-
-<div id="all-tab" class="tab-content hidden">
-<div data-lang="id" class="hidden">
-    {% for post in site.posts %}
-<div>
-    <h3 style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-        <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
-            <strong>{{ post.id-title }}</strong>
-        </a>
-        <span class="text-xs text-gray-500">
-            {{ post.date | date: "%B %-d, %Y" }}
-        </span>
-    </h3>
-    <div class="text-sm text-gray-400">{{ post.id-desc }}</div>
-</div>
-{% endfor %}
+  <!-- All Posts Tab -->
+  <div id="all-tab" class="tab-content hidden">
+    <div data-lang="id" class="lang-content">
+      {% for post in site.posts %}
+      <div class="post">
+        <h3 class="post-title">
+          <a href="{{site.baseurl}}{{ post.url }}">{{ post.id-title }}</a>
+          <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+        </h3>
+        <p class="post-desc">{{ post.id-desc }}</p>
+      </div>
+      {% endfor %}
     </div>
 
-<div data-lang="en">
-    {% for post in site.posts %}
-<div>
-    <h3 style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-        <a href="{{site.baseurl}}{{ post.url }}" style="color: black; text-decoration: none;">
-            <strong>{{ post.en-title }}</strong>
-        </a>
-        <span class="text-xs text-gray-500">
-            {{ post.date | date: "%B %-d, %Y" }}
-        </span>
-    </h3>
-    <div class="text-sm text-gray-400">{{ post.en-desc }}</div>
-</div>
-    {% endfor %}
+    <div data-lang="en" class="lang-content">
+      {% for post in site.posts %}
+      <div class="post">
+        <h3 class="post-title">
+          <a href="{{site.baseurl}}{{ post.url }}">{{ post.en-title }}</a>
+          <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+        </h3>
+        <p class="post-desc">{{ post.en-desc }}</p>
+      </div>
+      {% endfor %}
     </div>
-
+  </div>
 </div>
 
 <script>
-    function showTab(tabName) {
-        // Hide all tabs
-        const tabContents = document.querySelectorAll('.tab-content');
-        tabContents.forEach(tab => tab.classList.add('hidden'));
+function showTab(tabName) {
+  // Hide all tabs
+  document.querySelectorAll('.tab-content').forEach(tab => tab.classList.add('hidden'));
 
-        // Show the selected tab
-        const selectedTab = document.getElementById(tabName + '-tab');
-        if (selectedTab) {
-            selectedTab.classList.remove('hidden');
-        }
+  // Show selected tab
+  const selectedTab = document.getElementById(tabName + '-tab');
+  selectedTab.classList.remove('hidden');
 
-        // Reset all tab styles
-        document.getElementById('featured-label').style.borderBottomColor = 'transparent';
-        document.getElementById('featured-label').style.color = '#6b7280';
-        document.getElementById('all-label').style.borderBottomColor = 'transparent';
-        document.getElementById('all-label').style.color = '#6b7280';
+  // Reset all tab links
+  document.querySelectorAll('.tab-link').forEach(link => link.classList.remove('active'));
 
-        // Activate the selected tab
-        document.getElementById(tabName + '-label').style.borderBottomColor = '#4f46e5';
-        document.getElementById(tabName + '-label').style.color = '#4f46e5';
-    }
+  // Activate selected tab link
+  document.getElementById(tabName + '-label').classList.add('active');
+}
 
-    // Initialize tabs - make All Posts the default
-    document.addEventListener('DOMContentLoaded', function () {
-        showTab('all');
-    });
+// Default tab
+document.addEventListener('DOMContentLoaded', () => showTab('all'));
 </script>
 
 <style>
-    .active {
-        font-weight: 500;
-        color: #4f46e5;
-        border-bottom: 2px solid #4f46e5;
-    }
+/* Tabs Navigation */
+.tabs-nav {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 1rem;
+}
+
+.tab-link {
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.75rem 0;
+  color: #6b7280;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+}
+
+.tab-link.active {
+  color: #4f46e5;
+  border-bottom-color: #4f46e5;
+}
+
+/* Tab Content */
+.tab-content {
+  display: block;
+}
+
+.tab-content.hidden {
+  display: none;
+}
+
+/* Post Styling */
+.post {
+  margin-bottom: 1.5rem;
+}
+
+.post-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.post-title a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.post-date {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.post-desc {
+  font-size: 0.875rem;
+  color: #9ca3af;
+  margin: 0.25rem 0 0;
+}
+
+/* No posts message */
+.no-posts {
+  font-style: italic;
+  color: #9ca3af;
+}
 </style>
