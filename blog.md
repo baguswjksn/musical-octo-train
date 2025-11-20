@@ -28,7 +28,7 @@ permalink: blog
         {% endfor %}
       </div>
 
-      <div data-lang="en" class="lang-content">
+<div data-lang="en" class="lang-content">
         {% for post in featured_posts %}
         <div class="post">
           <h3 class="post-title">
@@ -58,7 +58,7 @@ permalink: blog
       {% endfor %}
     </div>
 
-    <div data-lang="en" class="lang-content">
+<div data-lang="en" class="lang-content">
       {% for post in site.posts %}
       <div class="post">
         <h3 class="post-title">
@@ -163,3 +163,4 @@ document.addEventListener('DOMContentLoaded', () => showTab('all'));
   color: #9ca3af;
 }
 </style>
+{% include footer.html %}
