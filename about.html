@@ -196,10 +196,6 @@ body, html {
   if (y) y.textContent = new Date().getFullYear();
 })();
 
-function toggleNavbar(id) {
-  document.getElementById(id).classList.toggle("open");
-}
-
 document.getElementById("themeLangSelect").addEventListener("change", function () {
   const value = this.value;
   document.querySelectorAll('[data-lang]').forEach(div => {
