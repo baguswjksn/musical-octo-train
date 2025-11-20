@@ -40,6 +40,7 @@ body, html {
 }
 
 /* ---------------- NAVBAR ---------------- */
+
 .navbar {
     margin-bottom: 2rem;
     display: flex;
@@ -48,14 +49,15 @@ body, html {
 
 .nav-inner {
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 100%;
 }
 
 .nav-toggle {
-    display: none;
     background: none;
     border: none;
+    display: none;
     cursor: pointer;
 }
 
@@ -70,7 +72,19 @@ body, html {
     gap: 1.2rem;
 }
 
-/* -------- Mobile collapse -------- */
+.nav-item {
+    text-decoration: none;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: #6b7280;
+    transition: color 0.2s;
+}
+
+.nav-item:hover {
+    color: #111827;
+}
+
+/* Mobile */
 @media (max-width: 768px) {
     .nav-toggle {
         display: inline-flex;
@@ -81,14 +95,13 @@ body, html {
         flex-direction: column;
         margin-top: 0.6rem;
         text-align: center;
-        gap: 0.6rem;
+        gap: 0.7rem;
     }
 
     .nav-menu.open {
         display: flex;
     }
 }
-
 /* ---------------- PROFILE ---------------- */
 .profile {
     text-align: center;
@@ -255,7 +268,7 @@ body, html {
   if (y) y.textContent = new Date().getFullYear();
 })();
 
-function toggleNavbar(id) {
+  function toggleNavbar(id) {
   document.getElementById(id).classList.toggle("open");
 }
 </script>
