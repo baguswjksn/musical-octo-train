@@ -3,16 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <title>About Me | bagusmw.me</title>
-<meta name="author" content="Bagus Muhammad Wijaksono" />
-<meta name="description" content="Bagus Muhammad Wijaksono’s Personal Website" />
-<link rel="canonical" href="https://www.bagusmw.me/about" />
 <link rel="icon" type="image/svg+xml" href="/assets/img/icon.svg" />
-
 <style>
   /* ---------------- GLOBAL LAYOUT ---------------- */
-
 body, html {
     margin: 0;
     padding: 0;
@@ -43,19 +37,6 @@ body, html {
     width: 100%;
 }
 
-.nav-toggle {
-    background: none;
-    border: none;
-    display: none;
-    cursor: pointer;
-}
-
-.nav-toggle .icon {
-    width: 28px;
-    height: 28px;
-    color: #6b7280;
-}
-
 .nav-menu {
     display: flex;
     gap: 1.2rem;
@@ -72,26 +53,7 @@ body, html {
 .nav-item:hover {
     color: #111827;
 }
-
-/* Mobile */
-@media (max-width: 768px) {
-    .nav-toggle {
-        display: inline-flex;
-    }
-
-    .nav-menu {
-        display: none;
-        flex-direction: column;
-        margin-top: 0.6rem;
-        text-align: center;
-        gap: 0.7rem;
-    }
-
-    .nav-menu.open {
-        display: flex;
-    }
-}
-
+  
 /* ---------------- ABOUT SECTION ---------------- */
 .about-section h1 {
     text-align: center;
@@ -102,13 +64,6 @@ body, html {
     text-align: justify;
     margin: 1rem 0;
 }
-
-.about-section img {
-    width: 100%;
-    height: auto;
-    border-radius: 0.5rem;
-}
-
 .highlight {
     background: rgb(255, 255, 185);
 }
@@ -118,7 +73,6 @@ body, html {
 }
 
 /* ---------------- LANGUAGE SELECTOR ---------------- */
-
 .lang-selector {
     position: fixed;
     bottom: 1rem;
@@ -144,7 +98,6 @@ body, html {
 }
 
 /* ---------------- FOOTER ---------------- */
-
 .footer {
     margin-top: 3rem;
     text-align: center;
@@ -178,20 +131,10 @@ body, html {
 <header class="header">
   <nav class="navbar">
     <div class="nav-inner">
-
-      <button type="button" class="nav-toggle" onclick="toggleNavbar('navbar-menu')">
-        <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none"
-             viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
-
       <div id="navbar-menu" class="nav-menu">
         <a href="/" class="nav-item">Home</a>
         <a href="/blog" class="nav-item">Blog</a>
       </div>
-
     </div>
   </nav>
 </header>
@@ -200,8 +143,7 @@ body, html {
   <h1>About Me</h1>
 
   <div data-lang="en">
-    <p>Hi! I’m <strong>Bagus Muhammad Wijaksono</strong>, known online as <strong>‘baguswijaksono’</strong>—you can find
-      me pretty much anywhere under that name. It’s simple and consistent, nothing complicated to remember.</p>
+    <p>A software engineer with 2+ years of experience, adaptable across multiple programming languages in *NIX environments. Skilled in both back-end and front-end development, with a strong preference for back-end engineering and system-level problem solving.</p>
 
     <p><img src="assets/img/444636409-7d05ff18-79e3-433f-87f0-e043ea5c9b7f-1.webp" alt="Selamat Pagi"></p>
 
