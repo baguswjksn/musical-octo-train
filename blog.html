@@ -1,8 +1,149 @@
----
-layout: page
-title: Blog
-permalink: blog
----
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Me | bagusmw.me</title>
+<link rel="icon" type="image/svg+xml" href="/assets/img/icon.svg" />
+<style>
+  /* ---------------- GLOBAL LAYOUT ---------------- */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 "Helvetica Neue", Arial, sans-serif;
+    color: #1f2937;
+    background: #ffffff;
+}
+
+.page {
+    max-width: 65ch;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* ---------------- NAVBAR ---------------- */
+
+.navbar {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: #6b7280;
+    transition: color 0.2s;
+}
+
+.nav-item:hover {
+    color: #111827;
+}
+  
+/* ---------------- ABOUT SECTION ---------------- */
+.about-section h1 {
+    text-align: center;
+}
+
+.about-section p {
+    line-height: 1.75;
+    text-align: justify;
+    margin: 1rem 0;
+}
+
+.about-section img {
+    width: 100%;
+    height: auto;
+}
+
+.highlight {
+    background: rgb(255, 255, 185);
+}
+
+.hidden {
+    display: none;
+}
+
+/* ---------------- LANGUAGE SELECTOR ---------------- */
+.lang-selector {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 50;
+}
+
+.lang-selector select {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #4B5563;
+    border-radius: 0.375rem;
+    background-color: #1F2937;
+    color: #F9FAFB;
+    font-size: 0.875rem;
+    outline: none;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+    cursor: pointer;
+    transition: box-shadow .15s ease;
+}
+
+.lang-selector select:focus {
+    box-shadow: 0 0 0 2px #3B82F6;
+}
+
+/* ---------------- FOOTER ---------------- */
+.footer {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.divider {
+    border-top: 1px solid #e5e7eb;
+    margin-bottom: 1.5rem;
+}
+
+.footer-text {
+    color: #9ca3af;
+    font-size: 0.875rem;
+}
+
+.footer-text a {
+    color: #9ca3af;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    color: #6b7280;
+}
+
+</style>
+</head>
+
+<body class="page">
+  
+<header class="header">
+  <nav class="navbar">
+    <div class="nav-inner">
+      <div id="navbar-menu" class="nav-menu">
+        <a href="/" class="nav-item">Home</a>
+        <a href="/blog" class="nav-item">Blog</a>
+      </div>
+    </div>
+  </nav>
+</header>
 
 {% assign featured_posts = site.posts | where: "featured", true %}
 
