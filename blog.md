@@ -136,5 +136,3 @@ permalink: blog
         border-bottom: 2px solid #4f46e5;
     }
 </style>
-
-{% include sticky-bottom.html %}
