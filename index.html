@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Jekyll SEO plugin -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Home | bagusmw.me</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Home" />
+<meta name="author" content="Bagus Muhammad Wijaksono" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Bagus Muhammad Wijaksono’s Personal Website" />
+<meta property="og:description" content="Bagus Muhammad Wijaksono’s Personal Website" />
+<link rel="canonical" href="https://www.bagusmw.me/" />
+<meta property="og:url" content="https://www.bagusmw.me/" />
+<meta property="og:site_name" content="bagusmw.me" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Home" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Bagus Muhammad Wijaksono"},"description":"Bagus Muhammad Wijaksono’s Personal Website","headline":"Home","name":"bagusmw.me","url":"https://www.bagusmw.me/"}</script>
+<!-- End Jekyll SEO tag -->
+  <link rel="icon" type="image/svg+xml" href="/assets/img/icon.svg" />
+
+  <style>
+    /* Base font */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 "Helvetica Neue", Arial, sans-serif;
+    color: #1f2937;
+}
+
+.page {
+    max-width: 65ch;
+    margin: 0 auto;
+    padding: 3rem 1rem 1rem;
+}
+
+/* ---------------- NAVBAR ---------------- */
+.navbar {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-toggle .icon {
+    width: 28px;
+    height: 28px;
+    color: #6b7280;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.nav-item {
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    color: #6b7280;
+    text-decoration: none;
+    transition: color .2s;
+}
+
+.nav-item:hover {
+    color: #111827;
+}
+
+/* Mobile collapse */
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: inline-flex;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        margin-top: 0.6rem;
+        text-align: center;
+        gap: 0.6rem;
+    }
+
+    .nav-menu.open {
+        display: flex;
+    }
+}
+
+/* ---------------- PROFILE ---------------- */
+.profile {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.avatar {
+    width: 144px;
+    height: 144px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.name {
+    margin-top: 0.8rem;
+    font-size: 1.9rem;
+}
+
+.role {
+    margin-top: 0.3rem;
+    color: #6b7280;
+}
+
+/* ---------------- SOCIAL BUTTONS ---------------- */
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 0.5rem;
+}
+
+.social-btn {
+    width: 40px;
+    height: 40px;
+    background: white;
+    color: #4b5563;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 1px solid #e5e7eb;
+    transition: background .2s;
+}
+
+.social-btn:hover {
+    background: #f3f4f6;
+}
+
+/* ---------------- FOOTER ---------------- */
+.footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.divider {
+    width: 100%;
+    border-top: 1px solid #e5e7eb;
+    margin: 2rem 0;
+    position: relative;
+}
+
+.footer-text {
+    color: #9ca3af;
+    font-size: 0.875rem;
+}
+
+.footer-text a {
+    color: #9ca3af;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    color: #6b7280;
+}
+  </style>
+</head>
+
+<body class="page">
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <button type="button" class="nav-toggle" onclick="toggleNavbar('navbar-menu')" aria-expanded="false">
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+
+    <div id="navbar-menu" class="nav-menu">
+      <a href="/about" class="nav-item">About</a>
+      <a href="/blog" class="nav-item">Blog</a>
+    </div>
+  </div>
+</nav>
+
+<div class="profile">
+  <img class="avatar"
+       src="/assets/img/86aa9f24121cd5971928cf1533606073733469256f74d19e0a6caa7b4cdb66a1.webp"
+       alt="author profile image">
+
+  <h1 class="name">Bagus Muhammad Wijaksono</h1>
+  <p class="role">Software Developer / DevOps Engineer</p>
+</div>
+
+<section class="social">
+  <a href="https://github.com/baguswjksn" target="_blank" aria-label="GitHub" class="social-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="18" height="18" fill="currentColor">
+        <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6
+  0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.3-2.5c-.7 2
+  1.3 4.3 4.3 4.9 2.6.7 5.6-.7 6.2-2.6.7-2-1.3-4.3-4.3-4.9-2.6-.7-5.5.6-6.2 2.6zm44.2-1.7c-2.9.7-4.9
+  2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.9-.3-1.9-2.9-3.3-5.9-2.6zM244 8C106.5
+  8 0 114.6 0 252.1c0 108.6 69.8 200.6 166.5 233.2 12.3 2.3 16.8-5.3
+  16.8-11.8 0-5.9-.3-25.5-.3-46.3-67.6 14.8-81.9-28.9-81.9-28.9-11.1-28.3-27.1-35.8-27.1-35.8-22.3-15.2
+  1.6-14.8 1.6-14.8 24.7 1.6 37.8 25.5 37.8 25.5 21.9 37.5 57.5 26.7
+  71.5 20.4 2.3-16 8.7-26.7 15.9-32.8-54-6.2-110.8-27.1-110.8-120.5
+  0-26.7 9.5-48.7 25.1-65.8-2.6-6.2-11.1-31.4 2.6-65.5
+  0 0 20.8-6.5 68.2 25.1 19.8-5.5 40.8-8.1 61.9-8.1s42.1 2.6
+  61.9 8.1c47.4-31.6 68.2-25.1 68.2-25.1 13.7 34.1
+  5.2 59.3 2.6 65.5 15.9 17.1 25.1 39.1 25.1 65.8
+  0 93.8-57.2 114.3-111.6 120.5 9 7.8 16.8 22.9
+  16.8 46.3 0 33.4-.3 60.4-.3 68.6 0 6.5 4.3 14.1
+  16.8 11.8C426.2 452.7 496 360.7 496 252.1 496
+  114.6 389.5 8 252 8z"/>
+    </svg>
+  </a>
+
+  <a href="https://linkedin.com/in/bgswjk" target="_blank" aria-label="LinkedIn" class="social-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="18" height="18" fill="currentColor">
+        <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 
+  83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.09 
+  54.3-53.79 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 
+  0-55.7 37.7-55.7 76.6V448h-92.7V148.9h89V196h1.3c12.4-23.6 
+  42.6-48.3 87.7-48.3 93.8 0 111.1 61.7 111.1 141.9V448z"/>
+    </svg>
+  </a>
+
+  <a href="mailto:baguswjksn@proton.me" aria-label="Email" class="social-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="18" height="18" fill="currentColor">
+        <path d="M502.3 190.8 327.4 338.7c-15.9 13.3-39 13.3-54.9 0L9.7 
+  190.8C3.9 186.1 0 179.1 0 171.6V120c0-26.5 21.5-48 48-48h416c26.5 
+  0 48 21.5 48 48v51.6c0 7.5-3.9 14.5-9.7 19.2zM0 
+  218.4v173.6c0 26.5 21.5 48 48 48h416c26.5 
+  0 48-21.5 48-48V218.4l-163.8 137c-27.3 22.8-68.2 
+  22.8-95.5 0L0 218.4z"/>
+    </svg>
+  </a>
+</section>
+
+<footer class="footer">
+  <div class="divider"></div>
+
+  <div class="footer-text">
+    © <span id="get-current-year"></span>
+    <a href="https://github.com/harrywang/tailpages">Powered by Tailpages</a>
+  </div>
+</footer>
+
+<script>
+(function () {
+  const y = document.getElementById("get-current-year");
+  if (y) y.textContent = new Date().getFullYear();
+})();
+
+function toggleNavbar(id) {
+  document.getElementById(id).classList.toggle("open");
+}
+</script>
+
+</body>
+</html>
