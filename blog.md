@@ -224,7 +224,12 @@ function showTab(tabName) {
   // Activate selected tab link
   document.getElementById(tabName + '-label').classList.add('active');
 }
-
 // Default tab
 document.addEventListener('DOMContentLoaded', () => showTab('all'));
+document.getElementById("themeLangSelect").addEventListener("change", function () {
+  const value = this.value;
+  document.querySelectorAll('[data-lang]').forEach(div => {
+    div.style.display = div.getAttribute('data-lang') === value ? "block" : "none";
+  });
+});
 </script>
