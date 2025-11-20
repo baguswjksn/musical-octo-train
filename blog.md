@@ -17,7 +17,7 @@ body, html {
 .page {
     max-width: 65ch;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    padding: 3rem 1rem 1rem;
 }
 /* ---------------- NAVBAR ---------------- */
 .navbar {
